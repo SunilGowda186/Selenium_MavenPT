@@ -16,7 +16,7 @@ public class TestM2 {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("http://www.amazon.com");
+		driver.get("http://www.google.com");
 		
 	}
 
